@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkonto.InfoAboutFeatureController">
+   <children>
+      <Label fx:id="name" layoutX="37.0" layoutY="33.0" prefHeight="17.0" prefWidth="238.0" text="Имя: " />
+      <Label fx:id="type" layoutX="37.0" layoutY="73.0" prefHeight="17.0" prefWidth="322.0" text="Тип: " />
+      <Label fx:id="values" layoutX="37.0" layoutY="123.0" prefHeight="17.0" prefWidth="274.0" text="Допустимые значения:  " />
+      <Button fx:id="back_button" layoutX="130.0" layoutY="207.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Назад" />
+      <Button layoutX="128.0" layoutY="265.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" text="Удалить" />
+      <Button layoutX="109.0" layoutY="314.0" mnemonicParsing="false" onAction="#RefreshPage" prefHeight="25.0" prefWidth="105.0" text="Обновить" />
+      <Button layoutX="296.0" layoutY="14.0" onAction="#GoBack" mnemonicParsing="false" text="Назад" />
+   </children>
+</AnchorPane>

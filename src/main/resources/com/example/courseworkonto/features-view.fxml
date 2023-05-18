@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkonto.FeaturesViewController">
+   <children>
+      <Button layoutX="249.0" layoutY="354.0" mnemonicParsing="false" onAction="#featureAddRedirect" prefHeight="25.0" prefWidth="154.0" text="Добавить" />
+      <ListView fx:id="lv_features" layoutX="116.0" layoutY="69.0" prefHeight="200.0" prefWidth="409.0" />
+      <Button layoutX="14.0" onAction="#GoBack" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="64.0" text="Назад" />
+   </children>
+</AnchorPane>

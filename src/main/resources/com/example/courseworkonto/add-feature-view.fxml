@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkonto.AddFeatureViewController">
+   <children>
+      <Label layoutX="33.0" layoutY="28.0" prefHeight="17.0" prefWidth="200.0" text="Введите названия характеристики" />
+      <TextField fx:id="ch_name" layoutX="33.0" layoutY="63.0" />
+      <ChoiceBox fx:id="cb_type" layoutX="33.0" layoutY="132.0" prefWidth="150.0" />
+      <Label layoutX="33.0" layoutY="102.0" prefHeight="17.0" prefWidth="190.0" text="Выберите тип" />
+      <Label layoutX="33.0" layoutY="183.0" prefHeight="17.0" prefWidth="275.0" text="Введите все допустимые значения или диапазон" />
+      <TextArea fx:id="text_values" layoutX="33.0" layoutY="216.0" prefHeight="146.0" prefWidth="174.0" />
+      <Button layoutX="262.0" layoutY="362.0" mnemonicParsing="false" onAction="#featureAddRedirect" prefHeight="25.0" prefWidth="92.0" text="Добавить" />
+      <Label layoutX="397.0" layoutY="183.0" prefHeight="17.0" prefWidth="351.0" text="Введите нормальные значение" />
+      <TextArea fx:id="normal_values" layoutX="397.0" layoutY="216.0" prefHeight="146.0" prefWidth="174.0" />
+   </children>
+</AnchorPane>

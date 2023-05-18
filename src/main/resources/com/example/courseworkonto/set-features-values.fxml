@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkonto.SetFeaturesValuesController">
+   <children>
+      <Label layoutX="198.0" layoutY="53.0" prefHeight="17.0" prefWidth="254.0" text="Заполните значение характеристик" />
+      <TextArea layoutX="80.0" fx:id="features_name" layoutY="127.0" prefHeight="200.0" prefWidth="431.0" />
+      <Button layoutX="253.0" onAction="#FinishProgramm" layoutY="346.0" mnemonicParsing="false" text="Продолжить" />
+      <Button layoutX="263.0" onAction="#RefreshFeatures" layoutY="88.0" mnemonicParsing="false" text="Заполнить" />
+   </children>
+</AnchorPane>

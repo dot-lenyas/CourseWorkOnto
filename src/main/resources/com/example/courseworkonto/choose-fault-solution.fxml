@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="258.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkonto.ChooseFaultSolutionController">
+    <children>
+        <ChoiceBox layoutX="37.0" fx:id="cb_faults" layoutY="98.0" prefHeight="25.0" prefWidth="271.0" />
+        <Label layoutX="37.0" layoutY="61.0" prefHeight="17.0" prefWidth="271.0" text="Выберите неисправность" />
+        <Button layoutX="37.0" layoutY="154.0" onAction="#GoToFeatures" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" text="Продолжить" />
+    </children>
+</AnchorPane>

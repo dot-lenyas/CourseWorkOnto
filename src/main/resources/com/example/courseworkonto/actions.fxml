@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkonto.ActionsController">
+   <children>
+      <ListView fx:id="lv_actions" layoutX="56.0" layoutY="77.0" prefHeight="199.0" prefWidth="504.0" />
+      <Label layoutX="63.0" layoutY="299.0" prefHeight="17.0" prefWidth="336.0" text="Введите действие" />
+      <TextField fx:id="action_name" layoutX="63.0" layoutY="328.0" prefHeight="25.0" prefWidth="220.0" />
+      <Button layoutX="321.0" layoutY="328.0" mnemonicParsing="false" onAction="#AddAction" prefHeight="25.0" prefWidth="94.0" text="Добавить" />
+      <Button layoutX="14.0" onAction="#GoBack" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Назад" />
+   </children>
+</AnchorPane>

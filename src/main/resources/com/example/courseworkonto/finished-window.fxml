@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.courseworkonto.FinishedWindowController">
+   <children>
+      <ListView fx:id="lv_actions" layoutX="100.0" layoutY="120.0" prefHeight="186.0" prefWidth="407.0" />
+      <Label layoutX="178.0" layoutY="71.0" text="Список шагов для устранения неисправности" />
+      <Button layoutX="240.0" onAction="#GetList" layoutY="328.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="120.0" text="Получить" />
+   </children>
+</AnchorPane>
